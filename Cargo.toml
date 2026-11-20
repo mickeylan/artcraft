@@ -12,6 +12,7 @@ members = [
   "crates/api_clients/grok_api_client",
   "crates/api_clients/grok_consumer_client",
   "crates/api_clients/kinovi_web_client",
+  "crates/api_clients/local_platform_client",
   "crates/api_clients/midjourney_client",
   "crates/api_clients/openai_sora_client",
   "crates/api_clients/worldlabs_api_client",
@@ -76,6 +77,7 @@ mimetypes = { path = "crates/lib/files/mimetypes" }
 openai_sora_client = { path = "crates/api_clients/openai_sora_client" }
 primitives = { path = "crates/lib/data/primitives" }
 kinovi_web_client = { path = "crates/api_clients/kinovi_web_client" }
+local_platform_client = { path = "crates/api_clients/local_platform_client" }
 sqlite_tasks = { path = "crates/schema/database/sqlite_tasks" }
 test_data = { path = "crates/testing/test_data" }
 test_utils = { path = "crates/testing/test_utils" }
